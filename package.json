@@ -1,0 +1,18 @@
+{
+  "name": "fe-dirosa",
+  "version": "0.0.0",
+  "description": "primo progetto node con javascript",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tiramisu"
+  ],
+  "author": "Riccardo Di Rosa",
+  "license": "ISC",
+  "volta": {
+    "node": "24.15.0"
+  }
+}
