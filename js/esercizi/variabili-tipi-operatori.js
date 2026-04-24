@@ -138,3 +138,19 @@ if((a1 + a2) > a3 || a1 + a3 > a2 || a2 + a3 > a1){
     return true;
 }
 
+// esecizio 2.18
+let numero = 472;
+
+// 1. Estrai le centinaia: dividi per 100 e arrotonda per difetto
+let centinaia = Math.floor(numero / 100);
+
+// 2. Estrai le decine: prendi il resto della divisione per 100 per avere "72", 
+// poi dividi per 10 e arrotonda
+let decine = Math.floor((numero % 100) / 10);
+
+// 3. Estrai le unità: è semplicemente il resto della divisione per 10
+let unita = numero % 10;
+
+console.log("Centinaia:", centinaia);
+console.log("Decine:", decine);
+console.log("Unità:", unita);
