@@ -176,4 +176,10 @@ console.log(`Per un viaggio di ${distanzaKm} km:`);
 console.log(`Litri di carburante necessari: ${litriNecessari.toFixed(2)} l`);
 console.log(`Il costo totale del viaggio è: €${costoTotale.toFixed(2)}`);
 
-
+// esercizio 2.22
+let celsius = 25; 
+let fahrenheit = (celsius * 9/5) + 32;
+let kelvin = celsius + 273.15;
+console.log(`Temperatura in Celsius: ${celsius}°C`);
+console.log(`Temperatura in Fahrenheit: ${fahrenheit.toFixed(1)}°F`);
+console.log(`Temperatura in Kelvin: ${kelvin.toFixed(2)} K`);
