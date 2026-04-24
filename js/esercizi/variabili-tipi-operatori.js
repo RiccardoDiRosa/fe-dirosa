@@ -183,3 +183,12 @@ let kelvin = celsius + 273.15;
 console.log(`Temperatura in Celsius: ${celsius}°C`);
 console.log(`Temperatura in Fahrenheit: ${fahrenheit.toFixed(1)}°F`);
 console.log(`Temperatura in Kelvin: ${kelvin.toFixed(2)} K`);
+
+// esercizio 2.23
+let carattere = "E";
+let c = carattere.toLowerCase();
+if (c === 'a' || c === 'e' || c === 'i' || c === 'o' || c === 'u') {
+    console.log(`${carattere} è una vocale.`);
+} else {
+    console.log(`${carattere} è una consonante.`);
+}
