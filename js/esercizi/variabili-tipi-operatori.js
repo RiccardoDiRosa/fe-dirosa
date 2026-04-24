@@ -71,3 +71,13 @@ console.log(`Prima dello scambio: a = ${a}, b = ${b}`);
 [a, b] = [b, a];
 
 console.log(`Dopo lo scambio: a = ${a}, b = ${b}`);
+
+// esercizio 2.11
+let num = 22
+let pari = true;
+let dispari = false;
+if (num % 2 == 0){
+    return pari;
+}else{
+    return dispari;
+}
