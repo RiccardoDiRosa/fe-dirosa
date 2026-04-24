@@ -53,3 +53,12 @@ let presentazione = `Ciao, mi chiamo ${nome} ${cognome} e ho ${eta} anni.`;
 
 console.log(presentazione);
 
+// esercizio 2.9
+let secondi = 3661;
+let minuti = secondi/60;
+let ore = minuti/60;
+let secondir = secondi - (minuti+ore);
+console.log(`i minuti sono" ${minuti}  i le ore sono ${ore} e i secondi rimanenti sono ${secondir}`);
+
+
+
