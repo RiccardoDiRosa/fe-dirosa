@@ -11,3 +11,35 @@ console.log(a/b);
 console.log(a*b);
 
 //esercizio 2.3
+let prezzo = 49.90;
+let scontato = prezzo * 0.8;
+
+console.log("Prezzo scontato:", scontato);
+
+//esercizio 2.4
+let numero = 49.90;          // number
+let testo = "Sconto";        // string
+let attivo = true;           // boolean
+let nonDefinita;             // undefined
+let vuoto = null;            // null
+
+console.log(typeof numero);
+console.log(typeof testo);
+console.log(typeof attivo);
+console.log(typeof nonDefinita);
+console.log(typeof vuoto);
+
+//sercizio 2.5
+let stringa = "123";
+let numero = +stringa + 7;
+
+console.log(numero); // Risultato: 130
+
+//esercizio 2.6
+let eta = 17;
+let hapermesso = true;
+if(eta>=18 || hapermesso){
+    return true;
+    console.log(eta,hapermesso);
+}
+
