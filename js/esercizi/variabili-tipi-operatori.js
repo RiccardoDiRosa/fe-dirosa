@@ -130,3 +130,11 @@ let ore = Math.floor(minutiTotali / 60);
 let minutiRimanenti = minutiTotali % 60;
 
 console.log(`${ore} ore e ${minutiRimanenti} minuti`);
+
+// esercizio 2.17
+let a1 = 2, a2 = 4, a3 = 5
+if((a1 + a2) > a3 || a1 + a3 > a2 || a2 + a3 > a1){
+    console.log("il triangolo è valido");
+    return true;
+}
+
