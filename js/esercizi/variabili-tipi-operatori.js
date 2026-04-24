@@ -160,3 +160,20 @@ let peso = 75;
 let altezza = 1.80; 
 let bmi = peso / (altezza * altezza);
 console.log(`Il tuo BMI è: ${bmi.toFixed(1)}`);
+
+// esercizio 2.21
+// Dati del viaggio
+let distanzaKm = 350;      
+let kmPerLitro = 15;         
+let prezzoCarburante = 1.85; 
+
+// 1. Calcolo dei litri necessari
+let litriNecessari = distanzaKm / kmPerLitro;
+
+// 2. Calcolo del costo totale
+let costoTotale = litriNecessari * prezzoCarburante;
+console.log(`Per un viaggio di ${distanzaKm} km:`);
+console.log(`Litri di carburante necessari: ${litriNecessari.toFixed(2)} l`);
+console.log(`Il costo totale del viaggio è: €${costoTotale.toFixed(2)}`);
+
+
