@@ -117,3 +117,16 @@ let euro = 34
 let dollari = euro * 1.17
 let sterline = euro * 0.87
 let yen = euro * 186.62
+
+// esercizio 2.15
+
+let minuti = 250
+let minutiTotali = 250;
+
+// Calcola le ore (divisione senza decimali)
+let ore = Math.floor(minutiTotali / 60);
+
+// Calcola i minuti rimanenti (il resto della divisione per 60)
+let minutiRimanenti = minutiTotali % 60;
+
+console.log(`${ore} ore e ${minutiRimanenti} minuti`);
