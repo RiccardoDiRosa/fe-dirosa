@@ -61,4 +61,13 @@ let secondir = secondi - (minuti+ore);
 console.log(`i minuti sono" ${minuti}  i le ore sono ${ore} e i secondi rimanenti sono ${secondir}`);
 
 
+//esercizio 2.10
+let a = 5;
+let b = 10;
 
+console.log(`Prima dello scambio: a = ${a}, b = ${b}`);
+
+// Scambio dei valori con la destrutturazione
+[a, b] = [b, a];
+
+console.log(`Dopo lo scambio: a = ${a}, b = ${b}`);
