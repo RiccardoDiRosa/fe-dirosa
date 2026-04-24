@@ -104,3 +104,10 @@ console.log(Boolean(undefined));  // false
 
 // 7. NaN (Not a Number, risultato di calcoli matematici errati)
 console.log(Boolean(NaN));        // false
+
+// esercizio 2.13
+let raggio = 5;
+const pi = 3.14;
+let area = r*r*pi
+let circonferenza = 2*r*pi
+console.log(`l'area è ${area} e la circonferenza è: ${circonferenza}`);
