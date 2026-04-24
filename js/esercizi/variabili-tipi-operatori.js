@@ -154,3 +154,9 @@ let unita = numero % 10;
 console.log("Centinaia:", centinaia);
 console.log("Decine:", decine);
 console.log("Unità:", unita);
+
+// esercizio 2.19
+let peso = 75;     
+let altezza = 1.80; 
+let bmi = peso / (altezza * altezza);
+console.log(`Il tuo BMI è: ${bmi.toFixed(1)}`);
