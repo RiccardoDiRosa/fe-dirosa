@@ -81,3 +81,26 @@ if (num % 2 == 0){
 }else{
     return dispari;
 }
+
+// esercizio 2.12
+// 1. Il booleano false
+console.log(Boolean(false));      // false
+
+// 2. Il numero zero (e lo zero negativo)
+console.log(Boolean(0));          // false
+console.log(Boolean(-0));         // false
+
+// 3. Il numero BigInt zero
+console.log(Boolean(0n));         // false
+
+// 4. Stringa vuota
+console.log(Boolean(""));         // false
+
+// 5. null (assenza di valore)
+console.log(Boolean(null));       // false
+
+// 6. undefined (valore non assegnato)
+console.log(Boolean(undefined));  // false
+
+// 7. NaN (Not a Number, risultato di calcoli matematici errati)
+console.log(Boolean(NaN));        // false
