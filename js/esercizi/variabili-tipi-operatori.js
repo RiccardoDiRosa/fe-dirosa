@@ -111,3 +111,9 @@ const pi = 3.14;
 let area = r*r*pi
 let circonferenza = 2*r*pi
 console.log(`l'area è ${area} e la circonferenza è: ${circonferenza}`);
+
+// esercizio 2.14
+let euro = 34
+let dollari = euro * 1.17
+let sterline = euro * 0.87
+let yen = euro * 186.62
